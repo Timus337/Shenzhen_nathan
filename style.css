@@ -96,3 +96,16 @@ form input, form textarea{padding:12px 14px;border:1px solid var(--border);borde
   .stripe{gap:36px;}
   .hero-banner h1{font-size:28px;}
 }
+
+/* Green coffee category and product details */
+#coffee{scroll-margin-top:120px;}
+.bento .coffee-tile{grid-column:1 / -1;}
+.coffee-card h3{font-size:16px;line-height:1.5;margin:6px 0;}
+.coffee-card .product-name{font-size:11px;letter-spacing:.35px;line-height:1.6;overflow-wrap:anywhere;}
+.coffee-specs{margin:18px 0;font-size:12px;}
+.coffee-specs div{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 12px;padding:8px 0;border-bottom:1px solid var(--border);}
+.coffee-specs dt{color:var(--gray);}
+.coffee-specs dd{margin:0;}
+.coffee-inquiry{margin-top:18px;padding:11px 20px;}
+.coffee-card .image-note{font-size:10px;margin-top:12px;color:var(--gray);}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:4px;}
